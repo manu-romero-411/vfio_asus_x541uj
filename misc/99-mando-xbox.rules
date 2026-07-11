@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="02a8", ENV{HOME}="/home/manuel", RUN+="/usr/local/bin/vfio-udev-usb 0e6f 02a8"
